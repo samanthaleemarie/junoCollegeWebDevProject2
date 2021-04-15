@@ -704,6 +704,12 @@ MEDIA QUERIES
     }
 
     .contactForm {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nameForm,
+    .emailForm {
         width: 100%;
     }
 
@@ -781,15 +787,6 @@ MEDIA QUERIES
         width: 100%;
     }
 
-    .contactForm {
-        flex-direction: column;
-    }
-
-    .nameForm,
-    .emailForm {
-        width: 100%;
-    }
-
     .clientText p {
         font-size: 2rem;
         line-height: 35px;
@@ -801,5 +798,9 @@ MEDIA QUERIES
     
     .footerNavList li {
         padding-right: 35px;
+    }
+
+    .footerEnd p {
+        font-size: 1.2rem;
     }
 }
