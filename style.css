@@ -730,7 +730,7 @@ MEDIA QUERIES
 }
 
 /* FOURTH BREAKPOINT */
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .headerNav {
         justify-content: space-between;
     }
